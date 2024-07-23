@@ -1016,7 +1016,7 @@ void amf_state_operational(ogs_fsm_t *s, amf_event_t *e)
      * To solve this problem, the 5G Core has been modified to implicitly
      * delete the RAN Context instead of sending a UEContextReleaseCommand.
      */
-                    HOLDING_NG_CONTEXT(amf_ue);
+                    // HOLDING_NG_CONTEXT(amf_ue);
                 }
             }
             amf_ue_associate_ran_ue(amf_ue, ran_ue);

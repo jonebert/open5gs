@@ -537,7 +537,7 @@ void ngap_handle_initial_ue_message(amf_gnb_t *gnb, ogs_ngap_message_t *message)
      * To solve this problem, the 5G Core has been modified to implicitly
      * delete the RAN Context instead of sending a UEContextReleaseCommand.
      */
-                    HOLDING_NG_CONTEXT(amf_ue);
+                    // HOLDING_NG_CONTEXT(amf_ue);
                 }
                 amf_ue_associate_ran_ue(amf_ue, ran_ue);
 
